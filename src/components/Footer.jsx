@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <a href={`mailto:${site.email}`}>{site.email}</a>
       <span className="sep">|</span>
-      <a href={`tel:${site.phoneCanada.replace(/[^+\d]/g, '')}`}>{site.phoneCanada} (Canada)</a>
+      <a href={`tel:${site.phoneCanada.replace(/[^+\d]/g, '')}`}>{site.phoneCanada}</a>
     </footer>
   );
 }

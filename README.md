@@ -51,7 +51,7 @@ The base path (`/thetinfactory/`) must match the repo name. If you rename the re
 GitHub Pages can't run server code, so the form works one of two ways:
 
 - **Default:** clicking *Send* opens the visitor's email app with the message pre-filled,
-  addressed to info@thetinfactory.ca.
+  addressed to the email set in `src/content.js`.
 - **Recommended:** sign up at [formspree.io](https://formspree.io) (free tier: 50
   submissions/month), create a form, and add its ID (the part after `/f/`) as a repository
   secret named `VITE_FORMSPREE_ID` (Settings → Secrets and variables → Actions). Messages

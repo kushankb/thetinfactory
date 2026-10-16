@@ -39,7 +39,7 @@ export default function Contact() {
           <h2 className="heading">Contact us.</h2>
           <p className="body contact-lines">
             <a href={`mailto:${site.email}`}>{site.email}</a><br />
-            <a href={`tel:${site.phoneCanada.replace(/[^+\d]/g, '')}`}>{site.phoneCanada}</a> (Canada)<br />
+            <a href={`tel:${site.phoneCanada.replace(/[^+\d]/g, '')}`}>{site.phoneCanada}</a><br />
             <a href={`tel:${site.phoneIndia.replace(/[^+\d]/g, '')}`}>{site.phoneIndia}</a> (India)
           </p>
         </div>

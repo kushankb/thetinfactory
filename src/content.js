@@ -6,7 +6,7 @@ export const img = (file) => `${base}images/${file}`;
 
 export const site = {
   name: 'The Tin Factory',
-  email: 'info@thetinfactory.ca',
+  email: 'bajajkushank@gmail.com',
   phoneCanada: '+1 778-682-7782',
   phoneIndia: '+91 965-055-5110',
   description:
